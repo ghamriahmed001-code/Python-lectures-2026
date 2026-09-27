@@ -1,0 +1,64 @@
+## 🐍 Python Topics Covered
+
+### 1. Fundamentals & Data Types
+* **Variables:** Single-line multi-variable assignment[cite: 3].
+* **Escape Sequences:** Usage of `\n`, `\t`, `\b`, `\r`, `\\`, and multi-line strings[cite: 3].
+* **String Operations:** Concatenation, Indexing, and Slicing[cite: 3].
+* **String Methods:** `len`, `strip`, `split`, `rsplit`, `center`, `count`, `swapcase`, `startswith`, `endswith`, `index`, `find`, `replace`, `join`, `splitlines`, `istitle`, `islower`, `isspace`, `expandtabs`[cite: 3].
+* **String Formatting:** Legacy `%` formatting[cite: 3], `.format()` method[cite: 3], and modern `f-strings`[cite: 3].
+* **Data Conversion:** Complex numbers and numerical type casting[cite: 3, 4].
+
+### 2. Data Structures
+* **Lists:** Manipulating elements with `append`, `extend`, `sort`, `reverse`, `clear`, `count`, `index`, `insert`, `pop`[cite: 3].
+* **Sets:** Properties and mathematical set operations (`union`, `copy`, `remove`, `pop`, `update`, `difference`, `intersection`, `symmetric_difference`, `issuperset`, `issubset`, `isdisjoint`)[cite: 3, 4].
+* **Dictionaries:** 2D and multi-dimensional dictionaries, plus methods like `keys`, `values`, `get`, `clear`, `update`, `copy`, `setdefault`, `popitem`, `items`, `fromkeys`, `del`[cite: 4].
+* **Booleans & Type Conversion:** Casting between structures (`tuple`, `list`, `set`, `dict`)[cite: 4].
+
+### 3. Control Flow & Loops
+* **Conditionals:** `if`, `elif`, `else` statements and membership operator (`in`)[cite: 4].
+* **While Loops:** `while` loops with `else` blocks and practical projects (ATM system, discount calculator, guessing game, list manager)[cite: 4].
+* **For Loops:** Iterating over lists/dicts and nested loops[cite: 5].
+* **Loop Control:** `break`, `continue`, and `pass` statements[cite: 5].
+
+### 4. Functions & Functional Programming
+* **Function Basics:** Defining functions (`def`) and default parameters[cite: 5].
+* **Variable-Length Arguments:** Using `*args` and `**kwargs`[cite: 5].
+* **Recursion:** Concepts and practical applications (Factorial, Sum of Series, Text Cleaning, Palindromes)[cite: 5].
+* **Lambda & Comprehensions:** Anonymous functions (`lambda`) and List Comprehensions[cite: 1, 5].
+* **Functional Modules:** `map()`, `filter()`, and `reduce()` from `functools`[cite: 6].
+
+### 5. Built-in Functions & Advanced Concepts
+* **Built-in Functions:** `all()`, `any()`, `bin()`, `id()`, `sum()`, `round()`, `range()`, `abs()`, `pow()`, `min()`, `max()`, `slice()`, `enumerate()`, `reversed()`[cite: 6].
+* **File I/O & OS:** Reading/writing files, file positioning using `seek` and `truncate`, and managing file paths with the `os` module[cite: 5, 6].
+* **Exception Handling:** `try`, `except`, `else`, `finally`, and `raise` statements[cite: 6].
+* **Generators:** Custom iterators using `yield` and `next()`[cite: 1, 6].
+* **Decorators:** Writing custom decorators and creating a runtime performance benchmark tool (`SpeedTest`)[cite: 6].
+* **Libraries & Packages:** `datetime`, `random`, `pyfiglet`, `termcolor`, and image processing with `Pillow (PIL)`[cite: 6].
+
+### 6. Object-Oriented Programming (OOP)
+* **Classes & Objects:** Defining classes and instance initialization via `__init__`[cite: 2].
+* **Class Attributes & Methods:** Working with `@classmethod` and class-level variables[cite: 2].
+* **Magic Methods:** Special methods including `__class__`, `__len__`, `__str__`[cite: 2].
+* **Inheritance:** Code reuse and method overriding using `super()`[cite: 2].
+* **Encapsulation:** Protected (`_`) and Private (`__`) attributes[cite: 2].
+* **Properties:** Getters, Setters, and the `@property` decorator[cite: 2].
+* **Abstraction:** Abstract Base Classes (ABCs) using the `abc` module[cite: 2].
+
+---
+
+## 🐼 Pandas Topics Covered
+
+* **DataFrame Creation:** Constructing DataFrames from Python Dictionaries[cite: 7].
+* **Data Inspection:** Checking structural dimensions with `shape`, and inspecting preview rows via `head()` and `tail()`[cite: 7].
+* **Slicing & Selection:** Subsetting data, column extraction, and working with Pandas `Series`[cite: 7].
+* **Statistical Methods:** Performing direct aggregation calculations like `max()`, `min()`, and `mean()`[cite: 7].
+* **Boolean Indexing:** Filtering records based on logical conditions (e.g., extracting names matching maximum scores)[cite: 7].
+* **Index Operations:** Assigning custom indices with `set_index()`, resetting with `reset_index()`, and applying changes using `inplace=True`[cite: 7].
+
+---
+
+## 🔢 NumPy Topics Covered
+
+* **High-Performance Data Types:** Understanding numerical types underlying Pandas operations, such as `np.int64` and `np.float64`[cite: 7].
+
+* I hope you learn even a little from the content of these files. If you have any comments, additions or information, I would be very happy and grateful if you would tell me about it. Thank you for your interest.
